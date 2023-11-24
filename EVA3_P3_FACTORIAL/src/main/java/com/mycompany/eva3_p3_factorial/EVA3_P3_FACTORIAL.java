@@ -30,7 +30,7 @@ public class EVA3_P3_FACTORIAL {
         int resultado = 1;
                 
         for (int i = 1; i <= potencia; i++) {
-             resultado = base * i;
+             resultado = resultado * base;
         }
         return resultado;
     }
